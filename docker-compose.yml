@@ -5,6 +5,7 @@ services:
     ports:
       - 8099:8099
     environment:
+      - TZ=Europe/Berlin
       - SECRET=optionalTextThatIsRequiredForEveryRequest
     volumes:
       # https://firebase.google.com/docs/admin/setup?hl=en#initialize-sdk
