@@ -1,0 +1,11 @@
+version: "3"
+services:
+  notifyadminnode:
+    build: .
+    ports:
+      - 8099:8099
+    environment:
+      - SECRET=optionalTextThatIsRequiredForEveryRequest
+    volumes:
+      # https://firebase.google.com/docs/admin/setup?hl=en#initialize-sdk
+      - "./serviceaccount.json:/data/serviceaccount.json:ro"

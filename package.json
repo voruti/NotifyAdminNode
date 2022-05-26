@@ -1,0 +1,19 @@
+{
+  "name": "notifyadminnode",
+  "version": "1.0.0",
+  "description": "HTTP server to send notifications to a specific device via Firebase Cloud Messaging.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/voruti/NotifyAdminNode.git"
+  },
+  "author": "voruti",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/voruti/NotifyAdminNode/issues"
+  },
+  "homepage": "https://github.com/voruti/NotifyAdminNode#readme",
+  "dependencies": {
+    "firebase-admin": "^10.2.0"
+  }
+}
